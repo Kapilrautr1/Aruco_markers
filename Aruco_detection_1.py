@@ -36,7 +36,7 @@ while True:
             print("Failed to grab frame")
             break
     else: 
-        img=cv2.imread("/home/kapil/codes/2.png")
+        img=cv2.imread("2.png")
         img= cv2.resize(img,(0,0),fx=3,fy=3)
 
     findAruco(img)
